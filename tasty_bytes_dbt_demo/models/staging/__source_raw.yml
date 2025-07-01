@@ -1,0 +1,24 @@
+version: 2
+sources:
+- name: tb_101
+  description: 'Point of Sale source data'
+  database: tasty_bytes_dbt_db
+  schema: RAW
+  tables:
+  - name: COUNTRY
+    description: 'Country reference data'
+  - name: FRANCHISE
+    description: 'Franchise ownership data'
+  - name: LOCATION
+    description: 'Business locations data'
+  - name: MENU
+    description: 'Food menu items data'
+  - name: ORDER_DETAIL
+    description: 'Order line item details'
+  - name: ORDER_HEADER
+    description: 'Order header information'
+  - name: TRUCK
+    description: 'Food truck data'
+  - name: CUSTOMER_LOYALTY
+    description: ''
+    
